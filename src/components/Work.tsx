@@ -2,12 +2,12 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from "@gsap/react";
+import { useEffect } from "react";
 
-gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
-  useGSAP(() => {
+  useEffect(() => {
   let translateX: number = 0;
 
   function setTranslateX() {
@@ -45,7 +45,7 @@ const Work = () => {
     timeline.kill();
     ScrollTrigger.getById("work")?.kill();
   };
-}, []);
+  }, []);
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -60,12 +60,12 @@ const Work = () => {
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>Project {index + 1}</h4>
+                    <p>Full-Stack Development</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>Python, Django, React, MySQL, AWS</p>
               </div>
               <WorkImage image="/images/placeholder.webp" alt="" />
             </div>

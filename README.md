@@ -1,7 +1,14 @@
 # My Portfolio Website - Overview 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+This repository contains my personal portfolio website, based on the open-source project by Moncy Yohannan.
+
+---
+
+## 📝 Attribution
+
+This portfolio is based on the original project by Moncy Yohannan:
+- Original repository: https://github.com/MoncyDev/Portfolio-Website
+- Forked and customized by: Lolek116
 
 ---
 
@@ -19,13 +26,13 @@ If you use parts of the code, you must provide proper credit linking back to the
 
 Build your own version — don’t just copy.
 
-— Moncy Yohannan
+— Original by Moncy Yohannan
 
 ---
 
 ## 🛠️ Instructions
 
-I have modified the GSAP Club plugins using trial versions.  
+The original project modified the GSAP Club plugins using trial versions.  
 ⚠️ Note: Trial plugins cannot be used for production or hosting.
 
 For official GSAP Club plugins, refer here:  
@@ -45,11 +52,11 @@ Some 3D assets included in this repository are free to use for learning purposes
 
 However:
 
-- The original 3D avatar used on my live portfolio is NOT included in this repository
+- The original 3D avatar used on the original creator's live portfolio is NOT included in this repository
 - That avatar is a custom asset created over ~1 month
 - It is not open source and not available for reuse
 
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+Any usage, extraction, or redistribution of that avatar from the original creator's live website is strictly prohibited.
 
 ---
 

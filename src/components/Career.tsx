@@ -15,43 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Python Fullstack Developer Intern</h4>
+                <h5>EduSkills Academy (AICTE)</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Jan 2026 - Mar 2026</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Demonstrated proficiency in HTML, CSS & Bootstrap, JavaScript, jQuery, Python, Django Framework, MySQL, and Git & Version Control.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Data Engineering Intern</h4>
+                <h5>EduSkills Academy (AWS Academy)</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Oct 2025 - Dec 2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Achieved Outstanding grade (Grade O: 90-100) demonstrating exceptional performance throughout the program.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Java Full Stack Intern</h4>
+                <h5>EduSkills Academy</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Aug 2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Gained hands-on experience with core Java, Spring Boot, RESTful APIs, HTML5, CSS3, JavaScript, and MySQL database integration.
             </p>
           </div>
         </div>
