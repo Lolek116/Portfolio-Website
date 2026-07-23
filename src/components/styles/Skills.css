@@ -1,0 +1,200 @@
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+  height: auto;
+  margin: auto;
+  margin-bottom: 250px;
+  padding: 120px 0px;
+}
+
+.skills-section h2 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #7f40ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.skills-section h2 > span {
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+
+.skills-container {
+  width: 80%;
+  max-width: 1200px;
+}
+
+.skills-category {
+  margin-bottom: 50px;
+}
+
+.skills-category h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--accentColor);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-tag {
+  background: linear-gradient(135deg, #7f40ff, #aa42ff);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 4px 15px rgba(127, 64, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(127, 64, 255, 0.5);
+}
+
+.certifications-section {
+  margin-top: 80px;
+  padding-top: 60px;
+  border-top: 2px solid rgba(127, 64, 255, 0.2);
+}
+
+.certifications-section h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.cert-category {
+  margin-bottom: 40px;
+}
+
+.cert-category h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: var(--accentColor);
+}
+
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-list li {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(127, 64, 255, 0.1);
+  transition: padding-left 0.3s ease;
+}
+
+.cert-list li:hover {
+  padding-left: 10px;
+  color: var(--accentColor);
+}
+
+@media only screen and (max-width: 1400px) {
+  .skills-section h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  
+  .skills-category h3 {
+    font-size: 24px;
+  }
+  
+  .skill-tag {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  .certifications-section h2 {
+    font-size: 40px;
+  }
+  
+  .cert-category h3 {
+    font-size: 20px;
+  }
+  
+  .cert-list li {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .skills-section {
+    padding: 70px 0px;
+    padding-top: 220px;
+    margin-top: -200px;
+    margin-bottom: 0;
+  }
+  
+  .skills-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .skills-section {
+    padding-top: 90px;
+    margin-top: -70px;
+    align-items: start;
+    place-items: inherit;
+    justify-content: left;
+  }
+  
+  .skills-container {
+    width: calc(100% - 25px);
+  }
+  
+  .skills-grid {
+    gap: 10px;
+  }
+  
+  .skill-tag {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-section h2 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  
+  .skills-category h3 {
+    font-size: 20px;
+  }
+  
+  .certifications-section h2 {
+    font-size: 32px;
+  }
+  
+  .cert-category h3 {
+    font-size: 18px;
+  }
+  
+  .cert-list li {
+    font-size: 13px;
+  }
+}

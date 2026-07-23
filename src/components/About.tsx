@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          A highly motivated and enthusiastic Computer Science Engineering student with a strong academic background, extensive hands-on internship experience across Java, Python, and Data Engineering domains, and a rich portfolio of nationally recognized certifications. Passionate about building efficient, scalable software solutions and continuously expanding technical expertise.
+          A highly motivated and enthusiastic Computer Science Engineering student with a strong academic background, extensive hands-on internship experience across Java, Python, and Data Engineering domains, and a rich portfolio of nationally recognized certifications. Passionate about building efficient, scalable software solutions and continuously expanding technical expertise. Seeking an opportunity to contribute meaningfully to a forward-thinking organization while growing as a software professional and making a real-world impact.
         </p>
       </div>
     </div>
